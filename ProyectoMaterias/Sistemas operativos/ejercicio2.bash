@@ -29,4 +29,4 @@ then
 else
 	last -f /var/log/wtmp.1 -s $fecha_inicio -t $fecha_final
 fi
-"loguear_ejecucion_de_script"
+loguear_ejecucion_de_script

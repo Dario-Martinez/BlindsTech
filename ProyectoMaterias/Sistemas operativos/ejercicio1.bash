@@ -19,4 +19,4 @@ else
 	last -f /var/log/wtmp.1
 fi
 
-"loguear_ejecucion_de_script"
+loguear_ejecucion_de_script

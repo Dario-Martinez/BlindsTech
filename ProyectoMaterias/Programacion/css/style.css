@@ -1,3 +1,10 @@
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+    background-color: #DE1A1A!important;
+}
+.btn-primary{
+    background-color: #DE1A1A!important;
+    border-color: #DE1A1A!important; 
+}
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;

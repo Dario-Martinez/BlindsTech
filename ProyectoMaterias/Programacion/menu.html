@@ -16,7 +16,11 @@
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-color: #DE1A1A!important">
+=======
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style=" background-color: #DE1A1A!important">
+>>>>>>> c325575e87df7a4480b0ca3168237c27047cc3b8
         <!-- Brand -->
         <a class="navbar-brand" href="#">Blinds Tech</a>
       
@@ -50,7 +54,7 @@
         </div> 
       </nav>
       <hr>
-      <div class="container">
+      <!-- <div class="container">
             <div class="row">
               <div class="col-4" style="">
                 <h1>Controles</h1>
@@ -74,6 +78,94 @@
               </div>
             </div>             
             </div>
+          </div> -->
+          <div class="container">
+          <div class="col-sm-6 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h1>Modos</h1>
+              </div>
+              <div class="panel-body">
+                  <p>
+                      <button class="btn btn-lg" style="display: inline">Modos predeterminados</button> </p>
+                    <p>
+                      <button class="btn btn-lg" style="display: inline">Modos personalizados</button></p>
+                    <p> 
+                      <button class="btn btn-lg" style="display: inline";>Modos manuales</button></p>
+                    <p>                                  
+              </div>
+              <div class="panel-footer">
+                <button class="btn btn-lg">Soporte</button>
+              </div>
+            </div>
           </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h1>Controles</h1>
+              </div>
+              <div class="panel-body">
+                <p>
+                  <strong class="ctrl-onOff">Persiana @talnombreQue tenga</strong><input type="checkbox" checked data-toggle="toggle" data-size="large" data-width="75"/> </p>
+                  <p>
+                      <strong class="ctrl-onOff">Luz control @talnombreQ tenga</strong><input type="checkbox" checked data-toggle="toggle" data-size="large" data-width="75"/> </p>
+                  <p>                     
+                      <strong class="ctrl-onOff">Persiana @talnombreQue tenga</strong><input type="checkbox" checked data-toggle="toggle" data-size="large" data-width="75"/> </p>
+                      <p>
+                          <p>
+                              <strong class="ctrl-onOff">Persiana @talnombreQue tenga</strong><input type="checkbox" checked data-toggle="toggle" data-size="large" data-width="75"/> </p>
+                              <p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <style>
+          .onoffswitch {
+    position: relative; width: 200px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 36px; padding: 0; line-height: 36px;
+    font-size: 16px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Encendido";
+    padding-left: 10px;
+    background-color: #40C27A; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Apagado";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #666666;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 36px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 160px;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+        </style>
 </body>
 </html>

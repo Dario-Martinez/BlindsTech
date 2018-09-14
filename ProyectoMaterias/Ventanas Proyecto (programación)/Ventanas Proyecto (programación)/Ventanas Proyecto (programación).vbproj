@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto</RootNamespace>
+    <AssemblyName>Ventanas Proyecto %28programación%29</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ventanas Proyecto %28programación%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ventanas Proyecto %28programación%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgregarCliente.Designer.vb">
+      <DependentUpon>AgregarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados.Designer.vb">
+      <DependentUpon>Empleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoPersianas.Designer.vb">
+      <DependentUpon>InfoPersianas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPersianas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformaciónRPIs.Designer.vb">
+      <DependentUpon>InformaciónRPIs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InformaciónRPIs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoServicios.Designer.vb">
+      <DependentUpon>InfoServicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaClientes.Designer.vb">
+      <DependentUpon>ListaClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListaClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contratos.Designer.vb">
+      <DependentUpon>Contratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.vb">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="model\DBConn.vb" />
+    <Compile Include="model\Generica.vb" />
+    <Compile Include="model\Servicio.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Persianas.Designer.vb">
+      <DependentUpon>Persianas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Persianas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.vb">
+      <DependentUpon>Reportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios.Designer.vb">
+      <DependentUpon>Servicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Contratos.resx">
+      <DependentUpon>Contratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados.resx">
+      <DependentUpon>Empleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoPersianas.resx">
+      <DependentUpon>InfoPersianas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformaciónRPIs.resx">
+      <DependentUpon>InformaciónRPIs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoServicios.resx">
+      <DependentUpon>InfoServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaClientes.resx">
+      <DependentUpon>ListaClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persianas.resx">
+      <DependentUpon>Persianas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios.resx">
+      <DependentUpon>Servicios.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

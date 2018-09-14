@@ -1,0 +1,26 @@
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\bin\Debug\Ventanas Proyecto (programación).exe.config
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\bin\Debug\Ventanas Proyecto (programación).exe
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\bin\Debug\Ventanas Proyecto (programación).pdb
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\bin\Debug\Ventanas Proyecto (programación).xml
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Login.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.MenuPrincipal.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Resources.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).vbproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).vbproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).exe
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).xml
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).pdb
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.ListaClientes.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Contratos.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Persianas.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Reportes.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.InfoPersianas.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.InformaciónRPIs.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).vbprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.InfoServicios.resources
+C:\Users\aferreira\Desktop\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).vbprojAssemblyReference.cache
+C:\Users\aferreira\Desktop\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).exe
+C:\Users\aferreira\Desktop\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).xml
+C:\Users\aferreira\Desktop\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Ventanas Proyecto (programación).pdb
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Empleados.resources
+C:\Users\Alumno\source\repos\Ventanas Proyecto (programación)\Ventanas Proyecto (programación)\obj\Debug\Proyecto.Servicios.resources

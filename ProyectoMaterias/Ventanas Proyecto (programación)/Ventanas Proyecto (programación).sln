@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ventanas Proyecto (programación)", "Ventanas Proyecto (programación)\Ventanas Proyecto (programación).vbproj", "{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C9F245-F21C-4913-A75F-EA5BE1C28A49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD1D0CAC-9F49-4E07-957A-5A7CEFEA2080}
+	EndGlobalSection
+EndGlobal

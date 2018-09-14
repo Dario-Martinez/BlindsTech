@@ -1,0 +1,13 @@
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\bin\Debug\Proyecto.xml
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.vbprojResolveAssemblyReference.cache
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.MenuPrincipal.resources
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.Resources.resources
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.vbproj.GenerateResource.cache
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.vbproj.CoreCompileInputs.cache
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.xml
+C:\Users\Alumno\AppData\Local\Temporary Projects\Proyecto\obj\Debug\Proyecto.pdb

@@ -1,0 +1,7 @@
+Opción 1: Se tiene que agregar la opción de no comprimir el archivo y que si el usuario ingresa algo que no es un archivo le diga algún mensaje de error.
+
+Opción 2: ES lo mismo que el uno pero para directorios.
+
+Opción 3: Configuración de CRON, se le debe pedir al usuario que ingrese los 5 valores del cron y el comando a automatizar, ademas de guardarlo en el crontab.
+
+Opción 4: Listar crontab del usuario, si no lo tiene configurado se le advertirá.

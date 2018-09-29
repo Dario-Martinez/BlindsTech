@@ -1,19 +1,16 @@
 #!/bin/bash
+
 source opcion1.bash
 source opcion2.bash
 source opcion3.bash
 source opcion4.bash
 
+clear
+
 if [ $(id -u) -eq 0 ];
 then
 	declare -a opciones=("Salir" "Configurar archivo para respaldo" "Configurar directorio para respaldo" "Configurar CRON" "Listar crontab del usuario")
 	PS3="Por favor seleccione la opcion deseada: "
-	
-	#Aca la variable "$opcion" va a tener el String de cada opcion: "Salir","Confi..."...
-	#echo "La opcion seleccionada es : $opcion"
-	
-	#Aca la variable $REPLY va a tener el numero de opcion que se selecciono: 1, 2, 3...
-	#echo "Usted selecciono la opcion numero: $REPLY"
 
 	select opcion in "${opciones[@]}"
 	do
@@ -49,5 +46,5 @@ then
     	done
 
 else 
-    echo "Ejectue el archivo como root"
+    echo "Ejecute el archivo como root"
 fi

@@ -5,8 +5,6 @@ source opcion2.bash
 source opcion3.bash
 source opcion4.bash
 
-clear
-
 if [ $(id -u) -eq 0 ];
 then
 	declare -a opciones=("Salir" "Configurar archivo para respaldo" "Configurar directorio para respaldo" "Configurar CRON" "Listar crontab del usuario")

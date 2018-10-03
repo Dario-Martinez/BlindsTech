@@ -34,4 +34,8 @@ Public NotInheritable Class DBConn
         Return sqlResut
 
     End Function
+
+    Function InsertStatement(sqlCmd As SqlCommand) As Integer
+
+    End Function
 End Class

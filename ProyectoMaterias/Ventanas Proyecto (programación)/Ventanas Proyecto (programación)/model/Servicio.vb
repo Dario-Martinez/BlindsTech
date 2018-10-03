@@ -44,6 +44,10 @@
     '    MyBase.nomTabla = "servicios"
     'End Sub
 
+    'Los atributos instert se deben llamar en las clases igual que en las tablas de la bd.'
+    'Se debe tomar en cuenta las mayusculas ya que visual basic es key sensitive, pero sql Server no lo es.'
+    ''
+
     Public Sub New()
         Me.nomTabla = "Servicios"
         Me.atributosInsert = {"nombre", "descripcion", "precio"}

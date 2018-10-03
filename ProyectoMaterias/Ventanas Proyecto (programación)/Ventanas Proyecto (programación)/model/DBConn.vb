@@ -36,6 +36,6 @@ Public NotInheritable Class DBConn
     End Function
 
     Function InsertStatement(sqlCmd As SqlCommand) As Integer
-
+        sqlCmd.ExecuteNonQuery()
     End Function
 End Class

@@ -1,5 +1,5 @@
 ﻿Public Class Servicio
-    Inherits Generica ' en esta línea e digo a Servicio que es hija de genérica
+    Inherits Generica ' en esta línea le digo a Servicio que es hija de genérica
 
     Private _id As Integer
     Private _cantCasas As Integer
@@ -40,8 +40,12 @@
         End Set
     End Property
 
-    Public Sub New()
-        MyBase.nomTabla = "servicios"
-    End Sub
+    'Public Sub New()
+    '    MyBase.nomTabla = "servicios"
+    'End Sub
 
+    Public Sub New()
+        Me.nomTabla = "Servicios"
+        Me.atributosInsert = {"nombre", "descripcion", "precio"}
+    End Sub
 End Class

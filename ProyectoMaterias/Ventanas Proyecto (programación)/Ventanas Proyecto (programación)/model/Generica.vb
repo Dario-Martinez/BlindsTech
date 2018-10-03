@@ -11,4 +11,10 @@ Public Class Generica
     Public Overridable Function obtenerListado() As SqlDataReader
         Return DBConn.Instance.SelectStatement("SELECT * FROM " + nomTabla)
     End Function
+
+    Protected atributosInsert() As String
+
+    Function insertar() As Integer
+
+    End Function
 End Class

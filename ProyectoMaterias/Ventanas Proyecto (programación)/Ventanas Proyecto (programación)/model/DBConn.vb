@@ -35,7 +35,11 @@ Public NotInheritable Class DBConn
 
     End Function
 
+    'Avisar cual es a conexion qye va a ejecutar o usar.'
+
     Function InsertStatement(sqlCmd As SqlCommand) As Integer
         sqlCmd.ExecuteNonQuery()
+
+        Return 0
     End Function
 End Class

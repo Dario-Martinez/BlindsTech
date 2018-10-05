@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Reflection
 
 Public Class Generica
 
@@ -18,7 +19,8 @@ Public Class Generica
         VALUES (@" & String.Join("@,", atributosInsert) & " ) "
         Dim comando As New SqlCommand(insert)
         For Each atributo In atributosInsert
-            comando.Parameters.AddWithValue("@" & atributo, CallType.Get)
+            Dim propInfo As PropertyInfo = Me.GetType.GetProperty(atributo, BindingFlags.Public Or BindingFlags.Instance Or BindingFlags.IgnoreCase)
+            comando.Parameters.AddWithValue("@" & atributo, propInfo)
         Next
 
         'If (insert.ExecuteNonQuery().Equals(1)) Then

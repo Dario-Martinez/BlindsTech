@@ -1,44 +1,8 @@
-﻿#!/bin/bash
+function opcion2 {
+#Configurar directorio para respaldo
+#  • Se le pedirá al usuario la ruta (absoluta) del directorio al cual quiere respaldar.
+#  • Se le pedirá al usuario el nombre que le quiere poner al archivo de respaldo. 
+#  • Se le preguntará si quiere o no comprimir el directorio a respaldar. Si la respuesta es SI, entonces se deberá crear el respaldo comprimido, si la respuesta es NO entonces deberá empaquetar el directorio sin comprimir. (Los respaldos se deberán hacer en la carpeta /media/sf_shared_host_folder/respaldos)
+#  • Luego deberá listar la carpeta de respaldos.
 
-opcion2(){
-	
-	echo "Escriba la ruta absoluta en donde esta el directorio"
-    	echo "ej: /home/alumno"
-    	
-	# -p rellena la opcion
-    	
-	read -p rutabsoluta
-    	
-	if [ -d "$rutabsoluta"];
-        then 
-        	echo "Escriba el nuevo nombre del directorio"
-        	read newname
-
-		echo "Quiere comprimir el directorio? y/n"
-        	read anw
-        	
-		if ["$anw" = "y"];
-            	then
-            		if [ -d /media/sf_shared_host_folder/respaldos/ ];
-            		then
-                	tar -czf "/media/sf_shared_host_folder/respaldos/$newname" "$archabsoluta"
-                	
-			ls "/media/sf_shared_host_folder/respaldos"
-            		else
-				mkdir "/media/sf_shared_host_folder/respaldos/"
-            		fi
-		else
-			if [ /d /media/sf_shared_host_folder/respaldos/ ];
-			then
-				tar -cf "/media/sf_shared_host_folder/respaldos/$newname" "$archabsoluta"
-				ls "/media/sf_shared_host_folder/respaldos/"
-			else
-				mkdir "/media/sf_shared_host_folder/respaldos/"
-			fi
-		fi
-	else
-		echo "El directorio no existe o la ruta no finaliza con un directorio"
-		echo "Intente de nuevo"
-		sudo bash opcion2.bash
-	fi
 }

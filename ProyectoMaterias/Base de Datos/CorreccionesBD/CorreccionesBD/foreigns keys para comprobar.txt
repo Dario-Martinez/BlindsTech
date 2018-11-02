@@ -1,0 +1,19 @@
+agregar y/o comprobar FKs:
+
+	Empleados.ci_personas --> Personas(ci)
+	Empleados.user_usuario--> Usuarios(user)
+
+	Clientes.ci_personas --> Personas(ci)
+
+	Contratos.ci_personas_clientes --> Clientes(ci_personas)
+	Contratos.id_servicios --> Servicios(id)
+	Contratos.id_rpis-->RPis(id)
+
+	Usuarios_Servicios.user_usuario--> Usuarios(user)
+	Usuarios_Servicios.id_servicios--> Contratos(id_servicios) 
+	Usuarios_Servicios.ci_personas_clientes-> Contratos(ci_personas_clientes)
+
+	Estados.codigo_persianas-->Persianas(codigo)
+
+	RPis.ci_personas_clientes-->Contratos(ci_personas_clientes)
+	RPis.ci_id_servicios-->Contratos(id_servicios)

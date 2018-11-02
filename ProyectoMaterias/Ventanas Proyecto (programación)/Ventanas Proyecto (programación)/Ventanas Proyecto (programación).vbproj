@@ -169,6 +169,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AgregarCliente.resx">
+      <DependentUpon>AgregarCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contratos.resx">
       <DependentUpon>Contratos.vb</DependentUpon>
     </EmbeddedResource>

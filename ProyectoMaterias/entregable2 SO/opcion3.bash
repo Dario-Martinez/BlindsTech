@@ -1,30 +1,8 @@
-#!/bin/bash
+function opcion3 {
+    #Configurar CRON
+#  • Se le pedirá al usuario la hora, el día, el mes, el año y el día de la semana. (para cualquiera de los casos si el usuario no ingresa nada entonces significa que aplica para todos).
+#  • Se le pedirá al usuario el comando que quiere programar en la tarea. 
+#  • Se deberá crear el CRON para la determinada configuración que eligió el usuario con el comando que se pasó. 
 
-opcion3() {
-	echo "Ingrese los minutos"
-	read mins
 
-	echo "ingrese la hora"
-	read horas
-
-	echo "Ingrese elnumero del dia del mes"
-	read dia
-
-	echo "Ingrese el mes, del 1 al 12"
-	read mes
-
-	echo "Ingrese el dia de la semana del 0 al 6"
-	echo "0 = Domingo, ..., 6 = Sabado"
-	read dia_semana
-
-	echo "Ingrese el comando que quiere atumatizar"
-	read comando
-
-	if [ -z "$mins" ];
-	then
-		$mins = "*"
-	fi
-	echo "el valor de los minutos es: $mins"
-
-	$mins $horas $dia $mes $dia_semana $comando 
 }
